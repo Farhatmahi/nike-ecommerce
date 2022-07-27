@@ -2,6 +2,10 @@
   --ff: "Bebas Neue", sans-serif;
 }
 
+#navbar{
+    background: #FFF9F4;
+}
+
 .navbar-brand img {
   width: 290px;
   height: 40px;
@@ -11,12 +15,18 @@
   color: #3c3c3c;
 }
 
+#banner{
+    background: #FFF9F4;
+    padding: 80px 0;
+    margin-bottom: 120px;
+}
+
 #banner .banner-img img {
   width: 100%;
 }
 
-#banner .banner-text{
-    margin-top: 150px;
+#banner .banner-text {
+  margin-top: 150px;
 }
 
 #banner .banner-text h1 {
@@ -25,10 +35,16 @@
   font-size: 80px;
 }
 
-#banner .banner-text h1 span{
-    color: #fa804c;
+#banner .banner-text p {
+  font-size: 16px;
+  color: #3c3c3c;
+  margin-bottom: 40px;
+  margin-right: 200px;
 }
 
+#banner .banner-text h1 span {
+  color: #fa804c;
+}
 
 #banner .banner-text a {
   background: linear-gradient(to bottom, #3d4ff3, #3543bc);
@@ -42,3 +58,113 @@
   width: 16px;
   color: white;
 }
+
+#casual{
+    margin-bottom: 120px;
+}
+
+#casual h1{
+    font-family: var(--ff);
+    font-weight: 600;
+    font-size: 48px;
+}
+
+#casual .item {
+  box-shadow: 0 30px 10px 0 rgba(0, 0, 0, 0.061);
+  padding: 20px;
+}
+
+#casual .item .item-photo {
+  background: #f1f1f1;
+  border-radius: 12px;
+  margin-bottom: 10px;
+}
+
+#casual .item .item-photo img {
+  width: 100%;
+}
+
+#casual .item h1{
+    font-size: 24px;
+    font-family: arial;
+}
+
+#casual .item .pricing {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+#casual .item .pricing h1{
+    font-size: 36px;
+    color: #FA804C;
+}
+
+
+#casual .item .pricing svg {
+  width: 16px;
+}
+
+#casual .item a {
+  background: linear-gradient(to bottom, #3d4ff3, #3543bc);
+  color: white;
+  padding: 15px 20px;
+  border-radius: 7px;
+  text-decoration: none;
+}
+
+
+
+
+#formal h1{
+    font-family: var(--ff);
+    font-weight: 600;
+    font-size: 48px;
+}
+
+#formal .item {
+  box-shadow: 0 30px 10px 0 rgba(0, 0, 0, 0.061);
+  padding: 20px;
+}
+
+#formal .item .item-photo {
+  /* background: #f1f1f1; */
+  border-radius: 12px;
+  margin-bottom: 10px;
+}
+
+#formal .item .item-photo img {
+  width: 100%;
+}
+
+#formal .item h1{
+    font-size: 24px;
+    font-family: arial;
+}
+
+#formal .item .pricing {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+#formal .item .pricing h1{
+    font-size: 36px;
+    color: #FA804C;
+}
+
+
+#formal .item .pricing svg {
+  width: 16px;
+}
+
+#formal .item a {
+  background: linear-gradient(to bottom, #3d4ff3, #3543bc);
+  color: white;
+  padding: 15px 20px;
+  border-radius: 7px;
+  text-decoration: none;
+}
+
