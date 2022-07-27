@@ -1,0 +1,44 @@
+:root {
+  --ff: "Bebas Neue", sans-serif;
+}
+
+.navbar-brand img {
+  width: 290px;
+  height: 40px;
+}
+
+.nav-link {
+  color: #3c3c3c;
+}
+
+#banner .banner-img img {
+  width: 100%;
+}
+
+#banner .banner-text{
+    margin-top: 150px;
+}
+
+#banner .banner-text h1 {
+  font-family: var(--ff);
+  font-weight: 600;
+  font-size: 80px;
+}
+
+#banner .banner-text h1 span{
+    color: #fa804c;
+}
+
+
+#banner .banner-text a {
+  background: linear-gradient(to bottom, #3d4ff3, #3543bc);
+  color: white;
+  padding: 15px 20px;
+  border-radius: 7px;
+  text-decoration: none;
+}
+
+#banner .banner-text a svg {
+  width: 16px;
+  color: white;
+}
